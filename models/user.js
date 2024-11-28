@@ -1,4 +1,3 @@
-// The file contains schema for the role and related details
 import mongoose from "mongoose";
 
 const UserSchema = mongoose.Schema({

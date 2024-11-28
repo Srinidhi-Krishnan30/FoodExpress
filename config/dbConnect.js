@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose, { model } from "mongoose";
 import dotenv from "dotenv";
 
 dotenv.config({path: '../.env'});
@@ -12,4 +12,4 @@ const connectDB = async () =>{
     }
 };
 
-connectDB();
+export default connectDB();
