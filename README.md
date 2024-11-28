@@ -43,7 +43,7 @@ FOODEXPRESS/
 ├── .env                       # Environment variables (e.g., JWT_SECRET, mongoURI)
 ├── package.json               # Project metadata and dependencies
 └── README.md                  # Project overview and documentation
-
+```
 
 ## Features
 
