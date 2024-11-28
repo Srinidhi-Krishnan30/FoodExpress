@@ -1,6 +1,6 @@
 // controllers/deliveryController.js
 
-import Order from '../models/Order.js';
+import Order from '../models/order.js';
 
 // View all orders for delivery
 export const viewOrders = async (req, res) => {
