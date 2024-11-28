@@ -7,6 +7,8 @@ const UserSchema = mongoose.Schema({
     passwd : String,
     role : {
         type : String, enum : ["User","Admin","DeliveryMan"], default: "User",
+        assignedOrder : [{type: mongoose.Schema.Types.ObjectId, ref : "Order"}],
     }
-
 });
+
+export default mongoose.model("Users",UserSchema);
