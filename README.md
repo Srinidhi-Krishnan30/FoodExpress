@@ -3,7 +3,9 @@
 A RESTful API for managing food delivery systems, including user authentication, food management, order processing, and role-based access control.
 
 ## File Structure
+# Project Structure: FoodExpress
 
+```plaintext
 FOODEXPRESS/
 ├── src/
 │   ├── config/
