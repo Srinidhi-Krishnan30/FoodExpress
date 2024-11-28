@@ -1,5 +1,5 @@
-import Food from '../models/Food.js';
-import Order from '../models/Order.js';
+import Food from '../models/food.js';
+import Order from '../models/order.js';
 
 // Create new food item (admin only)
 export const createFood = async (req, res) => {
