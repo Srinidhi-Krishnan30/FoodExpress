@@ -47,20 +47,20 @@ FOODEXPRESS/
 
 ## Features
 
-1. **Authentication**: 
+1. Authentication: 
    - Login with JWT-based authentication.
    - Token verification middleware.
 
-2. **Role-based Access Control**:
+2. Role-based Access Control:
    - Admin: Manage food items, view, and update orders.
    - User: Place and view orders.
    - Delivery: View and update delivery statuses.
 
-3. **CRUD Operations**:
+3. CRUD Operations:
    - Create, Read, Update, and Delete food items.
    - Manage orders.
 
-4. **MongoDB Integration**:
+4. MongoDB Integration:
    - Seamlessly stores users, food items, and orders.
 
 ## Setup
@@ -74,9 +74,9 @@ FOODEXPRESS/
 
 This guide provides details on how to test the routes of the application using Postman. Below are the API routes categorized based on their functionalities, including the expected responses for each route.
 
-## **Authentication Routes (`authRoutes.js`)**
+## Authentication Routes (`authRoutes.js`)
 
-### 1. **Login**
+### 1. Login
 - **Method**: `POST`
 - **URL**: `http://localhost:<PORT>/api/auth/login`
 - **Body**:
