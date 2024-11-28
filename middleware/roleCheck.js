@@ -3,3 +3,5 @@ export const checkRole = (role) =>{
         if(req.role != role){return res.status(403).json({error: "Access denied"})};
     };
 };
+
+export default checkRole;
